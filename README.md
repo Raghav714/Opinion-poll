@@ -10,3 +10,4 @@ create database poll;
 ## Creating Table
 create table author_poll (</br>`id` int(11) NOT NULL AUTO_INCREMENT,</br>`choice` tinyint(4) NOT NULL DEFAULT '0',</br>`ts` timestamp NULL DEFAULT NULL,</br>PRIMARY KEY (`id`));
 ## Screenshots
+![poll](Screenshot from 2019-11-16 19-33-41.png)
