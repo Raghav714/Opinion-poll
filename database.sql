@@ -1,6 +1,6 @@
 create database poll;
 
-CREATE TABLE author_poll (
+create table author_poll ( (
 
   `id` int(11) NOT NULL AUTO_INCREMENT,
 
