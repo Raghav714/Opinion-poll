@@ -11,7 +11,7 @@ PHP, MySQL and JavaScript
 create database poll;
 ## Creating Table
 create table author_poll (</br>`id` int(11) NOT NULL AUTO_INCREMENT,</br>`choice` tinyint(4) NOT NULL DEFAULT '0',</br>`ts` timestamp NULL DEFAULT NULL,</br>PRIMARY KEY (`id`));
-## Discribtion of Files
+## Description of Files
 • database.sql -> This file consist of MySQL Query to create Database and Table.</br>
 • db_fn.php -> This file is used to create the MySQL operation function to develop the OOPS paradigm.</br>
 • display.php -> This is used to display the Result in the Pie Chart Format.</br>
